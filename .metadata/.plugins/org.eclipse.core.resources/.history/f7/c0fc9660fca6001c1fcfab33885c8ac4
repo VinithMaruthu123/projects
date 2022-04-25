@@ -1,0 +1,27 @@
+package com.base;
+
+public class Hdfc {
+	public int a ; 
+		
+	private void saving() {
+		a=30;
+		
+	
+	} 
+    		  
+    public static void main(String[] args) {
+		Hdfc H = new Hdfc();
+		System.out.println(" before instalization a:"+H.a);
+		H.saving();
+		System.out.println("After instalization a:"+H.a);
+		Hdfc H1 = new Hdfc();
+		System.out.println(" before instalization a:"+H1.a);
+		H1.saving();
+		System.out.println("After instalization a:"+H1.a);
+				
+	}		  
+
+	}
+
+	
+	

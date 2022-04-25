@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45122" started-at="2022-04-25T08:42:43Z" finished-at="2022-04-25T08:43:28Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="45122" started-at="2022-04-25T08:42:43Z" finished-at="2022-04-25T08:43:28Z">
+      <class name="marvenproject.TestNG2">
+        <test-method status="PASS" signature="getdriver()[pri:0, instance:marvenproject.TestNG2@66480dd7]" name="getdriver" is-config="true" duration-ms="43608" started-at="2022-04-25T08:42:43Z" finished-at="2022-04-25T08:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdriver -->
+        <test-method status="PASS" signature="loginpa(java.lang.String)[pri:0, instance:marvenproject.TestNG2@66480dd7]" name="loginpa" duration-ms="780" started-at="2022-04-25T08:43:27Z" finished-at="2022-04-25T08:43:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vinith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpa -->
+        <test-method status="PASS" signature="password(java.lang.String)[pri:0, instance:marvenproject.TestNG2@66480dd7]" name="password" duration-ms="584" started-at="2022-04-25T08:43:28Z" finished-at="2022-04-25T08:43:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maruthu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+      </class> <!-- marvenproject.TestNG2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
